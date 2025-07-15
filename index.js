@@ -14,4 +14,19 @@
 //     }
 
 
-const num-1 = 
+
+// if(n%2==0)
+//   {
+//       console.log("Number is even number")
+//   }
+// else
+//   {
+//       console.log("Number is odd number")
+//   }
+    
+
+function FindMaxUsingMathMax(a,b)
+  {
+      return Math.max(a,b);
+  }
+console.log(Math.max(90,0));
