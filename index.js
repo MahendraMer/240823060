@@ -25,8 +25,12 @@
 //   }
     
 
-function FindMaxUsingMathMax(a,b)
-  {
-      return Math.max(a,b);
-  }
-console.log(Math.max(90,0));
+// function FindMaxUsingMathMax(a,b)
+//   {
+//       return Math.max(a,b);
+//   }
+// console.log(Math.max(90,0));
+
+
+
+
