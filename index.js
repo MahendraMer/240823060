@@ -3,6 +3,8 @@
 // console.log(`Hello How Are You ${name}`)
 
 
+// 1) Check even or odd
+
 // const n = 32
 // if(n%2==0)
 //     {
@@ -14,23 +16,129 @@
 //     }
 
 
+// 2) Find the maximum of two number
 
-// if(n%2==0)
-//   {
-//       console.log("Number is even number")
-//   }
+
+// const a1=111
+// const a2=120
+
+// if(a1>a2)
+// {
+//     console.log(a1+" is maximum")
+// }
 // else
-//   {
-//       console.log("Number is odd number")
-//   }
-    
-
-// function FindMaxUsingMathMax(a,b)
-//   {
-//       return Math.max(a,b);
-//   }
-// console.log(Math.max(90,0));
+// {
+//     console.log(a2+" is maximum")
+// }
 
 
+// 3) check leap year
+
+// const year = 2002
+
+// if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) 
+// {
+//   console.log(year + " is a leap year")
+// }
+//  else
+// {
+//   console.log(year + " is not a leap year")
+// }
 
 
+// 4) sum of natural number
+
+// const n=5
+// let sum=0
+
+// for(let i=1;i<=n;i++)
+// {
+//     sum += i
+// }
+// console.log(n)
+// console.log(sum)
+
+
+// 5)Factorial of a number
+
+// function fact(n)
+// {
+//     let a=1
+
+//     for(let i=1;i<=n;i++)
+//     {
+//         a*=i;
+//     }
+//     return a
+// }
+// console.log(fact(3))
+
+
+// 6)Multiplication table
+
+// const a=21
+
+// for(let i=1;i<=10;i++)
+// {
+//     console.log(`${a}*${i}=${a*i}`)
+// }
+
+
+// 7) Reverse a number
+
+// let num = 1234;
+// let reversed = 0;
+
+
+// while (num > 0) 
+// {
+//   reversed = reversed * 10 + (num % 10)
+//   num = (num - (num % 10)) / 10
+// }
+
+// console.log(reversed);
+
+
+// 8. Palindrome Check (Number)
+
+// const number = 1221;
+// let reversed = 0;
+// let temp = number;
+
+// while (temp > 0) 
+// {
+//     let digit = temp % 10
+//     reversed = reversed * 10 + digit
+//     temp = (temp - digit) / 10
+// }
+
+// if (number === reversed)
+// {
+//     console.log(number + " is a Palindrome")
+// }
+// else 
+// {
+//     console.log(number + " is NOT a Palindrome")
+// }
+
+// 9. Check Prime Number
+
+// let num = 6
+// let count = 0
+
+
+// for(let i = 0; i<= num; i++)
+// {
+//     if(num %i === 0)
+//     {
+//         count++
+//     }
+// }
+
+// if(count === 2)
+//     console.log("Prime")
+// else
+//     console.log("Not prime")
+
+
+// 10) count digits in a number
