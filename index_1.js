@@ -1,3 +1,4 @@
+
 // const name = "Mahendra Mer"
 // console.log("Hello,"+name)
 // console.log(`Hello How Are You ${name}`)
@@ -30,6 +31,7 @@
 // {
 //     console.log(a2+" is maximum")
 // }
+
 
 
 // 3) check leap year
@@ -156,15 +158,11 @@
 // // console.log(digits(5334534534));
 
 
-
-// let user = 123456
-// let len = 0
-// str = user.toString()
-
 // for(let i=1; i <= str.length; i++){
 //         len=i
 // }
 // console.log(len)
+
 
 
 
@@ -194,3 +192,4 @@
 //         if(err)throw err;
 //         console.log("File Content:",data);
 //     });
+
