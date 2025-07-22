@@ -181,7 +181,7 @@
 // const ls = require("lodash");
 // console.log("Capitalize:",ls.capitalize("Hello world"));
 
-const fs = require("fs")
+// const fs = require("fs")
 
 // fs.writeFile("best.txt","Hello,MCA class",(err)=>
 //     {
@@ -189,8 +189,8 @@ const fs = require("fs")
 //         console.log("File has been saved");
 //     });
 
-fs.readFile("best.txt","utf8",(err,data)=>
-    {
-        if(err)throw err;
-        console.log("File Content:",data);
-    });
+// fs.readFile("best.txt","utf8",(err,data)=>
+//     {
+//         if(err)throw err;
+//         console.log("File Content:",data);
+//     });
